@@ -63,10 +63,10 @@ sling1.fly()
 }
 
 
-function keypressed(){
+function keyPressed(){
 if(keyCode === 32){
 
-Matter.body.setPosition(stone1.body, {x:235, y:420})
+Matter.Body.setPosition(stone1.body, {x:235, y:420})
 sling1.attach(stone1.body);
 }
 
